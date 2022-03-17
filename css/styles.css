@@ -1,0 +1,38 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Bytter farge på menyen når du holder over den (hover) */
+li a:hover {
+  background-color: purple;
+}
+
+li.liste {
+  font-family: arial;
+  font-size: 2.2em;
+  color: black;
+  float: none;
+}
+p.index {
+  font-family: arial;
+  font-size: 1.8em;
+  color: black;
+  float: none;
+}
